@@ -1,8 +1,8 @@
 import pathlib
 import re
 
-from parsing.append_unique_list import append_unique_list
-from parsing.clean_value import clean_value
+from append_unique_list import append_unique_list
+from clean_value import clean_value
 
 
 def parse_success_lines(filepath: pathlib.Path) -> dict:
